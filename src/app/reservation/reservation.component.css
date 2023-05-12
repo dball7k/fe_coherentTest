@@ -1,0 +1,80 @@
+h2 {
+    text-align: left;
+    margin-left: 5%;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-left: 5%;
+    text-align: center;
+    width: 35%;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+form button[type="submit"],
+form button[type="button"] {
+    padding: 10px 20px;
+    background-color: #3b0780;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover,
+form button[type="button"]:hover {
+    background-color: #542da8;
+}
+
+table {
+    border-radius: 5px;
+    margin-left: 5%;
+    width: 90%;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #3b0780;
+}
+
+th {
+    background-color: #455ce2;
+    color: white;
+    font-weight: bold;
+}
+
+button {
+    margin-right: 10px;
+}
+
+button#btnDelete:hover {
+    background-color: #f44336;
+}
