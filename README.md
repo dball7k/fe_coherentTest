@@ -1,4 +1,4 @@
-# FeCoherentTask
+# Angular Frontend Project for coherent Test Task of Francisco Valdez
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.1.
 
